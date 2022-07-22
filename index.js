@@ -1,3 +1,17 @@
+
+let logo = document.getElementById('logonav')
+window.addEventListener('scroll',(e)=>{
+    // console.log(window.scrollY);
+    if(window.scrollY>130){
+        logo.style.display = 'block'
+        // console.log();
+    }else{
+        logo.style.display = 'none'
+    }
+})
+
+
+
 let cross = document.querySelector('#cross')
 cross.addEventListener('click',()=>{
     let a = document.querySelector('#menuContent')
