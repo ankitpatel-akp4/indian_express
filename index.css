@@ -131,7 +131,9 @@
 
 }
 #search{
-    padding: 0px 20px;
+    padding: 0px 30px;
+    /* font-size: 20px; */
+
 }
 #menu>a{
     color: white;
@@ -185,6 +187,8 @@
     width: 310px;
     border-radius: 3px 0px 0px 3px;
     border: 0px;
+    font-size: 20px;
+
     
 }
 #searchContent>div{
@@ -450,6 +454,7 @@ hr{
     border-radius: 20px;
     background-color: #817d7f;
     margin-bottom: 20px;
+    cursor: pointer;
 }
 #showComment{
     width: 100%;
